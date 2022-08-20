@@ -1,0 +1,10 @@
+[package]
+name = "triple_dealer"
+description = "Round-robins input MIDI notes to output channels 1, 2 or 3. Useful for achieving polyphony on trash80/Ym2149Synth from a MIDI keyboard."
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+midir = "0.8.0"
